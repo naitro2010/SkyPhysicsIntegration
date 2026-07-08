@@ -1,9 +1,9 @@
 {
   "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
-  "name": "skse-clibng-template",
+  "name": "skyphysicsintegration",
   "version-string": "0.0.5",
-  "description": "SKSE CommonLibSSE-NG Template",
-  "homepage": "https://github.com/epinter/skse-clibng-template",
+  "description": "SkyPhysicsIntegration",
+  "homepage": "https://github.com/naitro2010/SkyPhysicsIntegration",
   "features": {
     "plugin": {
       "description": "SKSE plugin",
@@ -11,7 +11,8 @@
         "commonlibsse-ng",
         "spdlog",
         "xbyak",
-        "detours"
+        "detours",
+        "joltphysics"
       ]
     }
   },
